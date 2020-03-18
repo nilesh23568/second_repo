@@ -22,6 +22,7 @@ public void test01()
 	driver.findElement(By.id("email")).sendKeys("kiran@gmail.com");
 	driver.findElement(By.id("password")).sendKeys("123456");
 	driver.findElement(By.xpath("//button[@type='submit']")).click();
+	System.out.println("HEHEHEHEHEHEHEHEHEHEHEHEHEHHE========================");
 }
 @Test
 public void test02()
